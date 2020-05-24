@@ -116,7 +116,10 @@ body{
 }
 
 #case{
-  top:0;
+  scroll-behavior: smooth;
+  margin-top:0px;
+  position:fixed;
+  overflow-y:scroll;
   margin-left:20%;
   height:100%;
   width:80%;
